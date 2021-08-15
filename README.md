@@ -1,6 +1,6 @@
-# Followbot-github
+# Followbot-twitter
 
-**A python scheduler to follow/unfollow users on Github**
+**A python scheduler to follow/unfollow users on Twitter**
 
 <p>Version 0.0.1</p>
 <p>by m3yevn</p>
@@ -11,15 +11,28 @@
 - Easy to configure
 - Easy to execute with Python
 
+## How to use
+
+  <br>
+  <code>
+  $ First, fill up those API credentials inside utils/.env
+
+  $ And then, you will need to source virtualenv
+
+  $ At last, do the pip install -r requirements.txt to install dependencies
+
+  $ Finally, run python app.py and voila!
+  </code>
+
 ## ⭐ Public Url
 
-https://github.com/m3yevn/followbot-github
+https://github.com/m3yevn/followbot-twitter
 
 ## 📚 Tech Stack
 
 - Python
 - Requests
-- Github API
+- Twitter API
 
 ## 📸 Screenshots
 
@@ -61,19 +74,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-## How to use
+## Dependencies
 
-- For Windows
-  <br>
-  <code>
-  set TOKEN=**\*Your Bearer Token** && python app.py
-  </code>
+This project does not have dependencies
 
-- For Linux
-  <br>
-  <code>
-  TOKEN=**Your Bearer Token** python app.py
-  </code>
+## Dev Dependencies
+
+This project does not have dev dependencies
 
 <img src="https://cdn.dribbble.com/users/2401141/screenshots/5487982/developers-gif-showcase.gif"/>
 

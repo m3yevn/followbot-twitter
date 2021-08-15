@@ -1,6 +1,7 @@
 from utils.util_funcs import get_followers, get_followings, get_who_never_follow_back, get_whom_i_never_follow_back, unfollow_user, follow_user
 
 if __name__ == "__main__":
+
     followers = get_followers()
     print("-------------------------------------------------------------")
     following = get_followings()
@@ -15,7 +16,7 @@ if __name__ == "__main__":
     print("-------------------------------------------------------------")
     print("Unfollowing those who never follow you back...")
     for user in who_never_follow_back:
-        unfollow_user(user['login'])
+        unfollow_user(user['username'], user['id'])
 
     print("-------------------------------------------------------------")
     whom_i_never_follow_back = get_whom_i_never_follow_back(
@@ -27,4 +28,4 @@ if __name__ == "__main__":
     print("-------------------------------------------------------------")
     print("Following those whom I never follow back...")
     for user in whom_i_never_follow_back:
-        follow_user(user['login'])
+        follow_user(user['username'], user['id'])
