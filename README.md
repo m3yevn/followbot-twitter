@@ -1,6 +1,6 @@
 # Followbot-twitter
 
-**A python scheduler to follow/unfollow users on Twitter**
+**A python script to follow/unfollow users on Twitter**
 
 <p>Version 0.0.1</p>
 <p>by m3yevn</p>
